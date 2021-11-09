@@ -2,43 +2,18 @@
 layout: default
 title: Dataset
 nav_order: 20
-last_modified_date: 2021-10-06
+last_modified_date: 2021-11-09
 ---
 
-# Minerva Stories
+# Data visualization
 
-Below are examples of image cards. They can serve as links to your external data location.
+Summary metrics of drug response, dose response curves, and cell cycle fractions across all drugs and breast cancer cell lines can be visualized in an [RShiny app](https://labsyspharm.shinyapps.io/HMSLINCS_BRCA_Browser/)
 
-<div class="basic-grid three-column">
-
-<div markdown="1">
-{% include image-card.html 
-    image="https://via.placeholder.com/500"
-    link="http://example.com/"
-    label="MinervaStory-001"
-%}
-</div>
-<div markdown="1">
-{% include image-card.html 
-    image="https://via.placeholder.com/500"
-    link="http://example.com/"
-    label="MinervaStory-002"
-%}
-</div>
-<div markdown="1">
-{% include image-card.html 
-    image="https://via.placeholder.com/500"
-    link="http://example.com/"
-    label="MinervaStory-003"
-%}
-</div>
-
-</div><!-- end grid -->
 
 # Data table
 
-Another way to showcase your dataset is put them in tables. 
+Data is available in a tabular form on Synapse and on the HMS-LINCS DB 
 
-| name | type | link |
-| thing 1 | type 1| [link 1](https://www.nobelprize.org/prizes/chemistry/2021/summary/) |
+| Filename | Referenced in the paper as | Description |   Synapse | HMS LINCS D
+| xx.csv | Supplementary table 1  | GR values ... | [Synapse link](https://www.nobelprize.org/prizes/chemistry/2021/summary/) | [HMS lincd DB links](https://www.improbable.com/2021-ceremony/winners/#ig2021) |
 | thing 2 | type 2| [link 2](https://www.improbable.com/2021-ceremony/winners/#ig2021) |
