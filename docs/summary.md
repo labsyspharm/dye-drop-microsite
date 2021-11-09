@@ -8,7 +8,7 @@ last_modified_date: 2021-11-09
 ### Publication Summary
 {: .no_toc }
 
-# Multiplexed and reproducible high content screening of live and fixed cells using the Dye Drop method![image](https://user-images.githubusercontent.com/9040630/140956877-871a74e6-103e-46f1-9dac-d13dc1a25170.png)
+# Multiplexed and reproducible high content screening of live and fixed cells using the Dye Drop method
 
 {: .no_toc }
 __Full list of authors and affilications. Provide links to personal pages if there is one.__
