@@ -8,4 +8,4 @@ last_modified_date: 2021-10-06
 
 This work is supported by:
 - NIH U54 grant HL127365
-- Please see the [HMS LINCS Terms of Use]("http://lincs.hms.harvard.edu/terms/") regarding use and citation of the published and unpublished data presented here
+- Please see the [HMS LINCS Terms of Use](http://lincs.hms.harvard.edu/terms/) regarding use and citation of the published and unpublished data presented here
