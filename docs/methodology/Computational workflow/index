@@ -2,5 +2,6 @@
 layout: page
 title: Computational Workflow
 nav_order: 8
+parent: methodology
 has_children: true
 ---
