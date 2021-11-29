@@ -1,3 +1,10 @@
+---
+layout: default
+nav_order: 8
+title: Parameter specification
+parent: Computational workflow
+---
+
 # Parameter specifications
 
 The master function `run_cell_cycle_gating.run` contains a number of arguments and parameters that can be adjusted. 
