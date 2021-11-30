@@ -1,8 +1,8 @@
 ---
 layout: default
 nav_order: 8
-title: Overview of computational protocol
-parent: Computational workflow
+title: Overview
+parent: Computational Workflow
 ---
 
 # Overview of Computational protocol for automated gating of single cell Deep Dye Drop data
