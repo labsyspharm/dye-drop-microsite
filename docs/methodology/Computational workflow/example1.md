@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_order: 8
-title: Running the pipeline. An Example
+title: example1
 parent: Computational workflow
 ---
 
