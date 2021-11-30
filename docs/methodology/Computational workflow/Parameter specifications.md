@@ -1,8 +1,8 @@
 ---
 layout: default
 nav_order: 8
-title: Parameter specification
-parent: Computational workflow
+title: Imaging Methods
+parent: Computational Workflow
 ---
 
 # Parameter specifications
