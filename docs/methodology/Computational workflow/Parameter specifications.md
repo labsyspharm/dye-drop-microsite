@@ -38,3 +38,4 @@ fudge_gates : This argument enables you to offset the automated DNA gates by the
 ph3_channel : Default is True. Set to False in case the 4th channel is not used
 
 ldr_channel : Default is True. Set to False in case LDR is not used in the aday 
+```
