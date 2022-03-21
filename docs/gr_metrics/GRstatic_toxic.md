@@ -30,7 +30,7 @@ In order to differentiate between the effects of slowed growth and toxicity, we 
 <center><img src="/assets/images/gr/gr_statictoxic/gr_models.png" align = "center" height="250px" style="padding-bottom:10px;"></center>
 <p>
   To derive these, we describe the rates of change with a system of ordinary differential equations (ODEs):
-  <center><img src="images/gr_diffeq.png" align = "center" height="150px" style="padding-bottom:10px;"></center>
+  <center><img src="/assets/images/gr/gr_statictoxic/gr_diffeq.png" align = "center" height="150px" style="padding-bottom:10px;"></center>
 </p>
 <p>
   Using the initial conditions for the population of live cells <b><i>x<sub>0</sub> = x(0,0)</i></b> and dead cells <b><i>d<sub>0</sub> = d(0,0)</i></b>, we solve this system for <b><i>k<sub>s</sub></i></b> and <b><i>k<sub>d</sub></i></b>.
