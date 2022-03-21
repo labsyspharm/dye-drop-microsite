@@ -1,9 +1,8 @@
 ---
 layout: page
 title: GR metrics
-nav_order: 8
+nav_order: 2
 has_children: true
-parent: Methodology
 ---
 
 ## GR metrics

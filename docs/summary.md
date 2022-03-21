@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Publication Summary
-nav_order: 2
-last_modified_date: 2021-11-09
+nav_order: 3
+last_modified_date: 2022-03-21
 ---
 
 {: .no_toc }
@@ -25,7 +25,7 @@ High throughput measurement of cell perturbation, by libraries of small molecule
 
 # Graphical Abstract
 
-<img src="/assets/images/graphical_abstract.png" class="center">
+<img src="/assets/images/dye_drop/graphical_abstract.png" class="center">
 
 <!---
 \\# Key findings

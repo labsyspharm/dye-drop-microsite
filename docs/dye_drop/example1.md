@@ -2,7 +2,7 @@
 layout: default
 nav_order: 8
 title: example1
-parent: Computational workflow
+parent: Dye Drop methods
 ---
 
 # An example of running the automated gating script

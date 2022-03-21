@@ -1,8 +1,8 @@
 ---
 layout: default
-nav_order: 8
+nav_order: 3
 title: Quick start
-parent: Computational workflow
+parent: Dye Drop methods
 ---
 
 # Quick start

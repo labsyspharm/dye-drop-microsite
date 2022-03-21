@@ -1,8 +1,8 @@
 ---
 layout: default
-nav_order: 8
+nav_order: 2
 title: Parameter specifications
-parent: Computational Workflow
+parent: Dye Drop methods
 ---
 
 # Parameter specifications
