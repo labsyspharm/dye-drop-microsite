@@ -1,8 +1,8 @@
 ---
 layout: default
-nav_order: 2
+nav_order: 3
 title: Installation
-parent: Dye Drop methods
+parent: Deep Dye Drop
 ---
 
 # Installation

@@ -2,7 +2,7 @@
 layout: default
 nav_order: 1
 title: Overview
-parent: Dye Drop methods
+parent: Deep Dye Drop
 ---
 
 # Overview of Computational protocol for automated gating of single cell Deep Dye Drop data

@@ -1,21 +1,18 @@
 ---
 layout: page
-title: Dye Drop methods
+title: Deep Dye Drop
 nav_order: 1
 has_children: true
 ---
 
-# Methodology
+# Deep Dye drop
 
-The use of standardized data analysis pipelines is essential for ensuring the accuracy and
-reproducibility of multi-parametric single-cell assays.
+We have developed a set of computational routines for designing and performing drug dose-response assays using the Dye Drop method. These routines are integrated with scripts we
+previously developed for computing GR metrics in a single tool box.
 
-We have therefore developed a set of computational routines for designing and performing drug dose-response assays using the Dye Drop method. These routines are integrated with scripts we
-previously developed for computing GR metrics63 in a single tool box. Dye Drop dose-response analysis
-features a series of “flags” that alert users when experimental design criteria and results such as the
-number of controls, the dose range, and the accuracy of curve fitting are suboptimal.
+The figure below summarizes our experimental and computational pipelines.
 
-<center><img src="/assets/images/dye_drop/" align = "center" height="300px" style="padding-bottom:10px;"></center>
+<center><img src="/assets/images/dye_drop/ddd_diagram_fig_s6.png" align = "center" style="padding-bottom:10px;"></center>
 
 <!---
 Provide information on the methods of this publication. This section also shows you how to construct a page hierachy structure. By default, this page will have a Table of Content at the bottom to show all its "children".
