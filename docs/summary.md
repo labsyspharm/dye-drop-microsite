@@ -25,7 +25,7 @@ High throughput measurement of cell perturbation, by libraries of small molecule
 
 # Graphical Abstract
 
-<img src="/assets/images/dye_drop/graphical_abstract.png" class="center">
+<img src="{{ site.baseurl }}/assets/images/dye_drop/graphical_abstract.png" class="center">
 
 <!---
 \\# Key findings

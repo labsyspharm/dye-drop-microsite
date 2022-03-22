@@ -27,27 +27,27 @@ The original GR method detailed in <a href="https://dx.doi.org/10.1038/nmeth.385
 
 In order to differentiate between the effects of slowed growth and toxicity, we introduce the static and toxic GR. We start by modifying our model of cell population growth to separate total population growth into two parts, a growth rate <b><i>k<sub>s</sub></i></b> and a death rate <b><i>k<sub>d</sub></i></b>.
 
-<center><img src="/assets/images/gr/gr_statictoxic/gr_models.png" align = "center" height="250px" style="padding-bottom:10px;"></center>
+<center><img src="{{ site.baseurl }}/assets/images/gr/gr_statictoxic/gr_models.png" align = "center" height="250px" style="padding-bottom:10px;"></center>
 <p>
   To derive these, we describe the rates of change with a system of ordinary differential equations (ODEs):
-  <center><img src="/assets/images/gr/gr_statictoxic/gr_diffeq.png" align = "center" height="150px" style="padding-bottom:10px;"></center>
+  <center><img src="{{ site.baseurl }}/assets/images/gr/gr_statictoxic/gr_diffeq.png" align = "center" height="150px" style="padding-bottom:10px;"></center>
 </p>
 <p>
   Using the initial conditions for the population of live cells <b><i>x<sub>0</sub> = x(0,0)</i></b> and dead cells <b><i>d<sub>0</sub> = d(0,0)</i></b>, we solve this system for <b><i>k<sub>s</sub></i></b> and <b><i>k<sub>d</sub></i></b>.
 </p>
-<center><img src="/assets/images/gr/gr_statictoxic/gr_diffeq_sol.png" align = "center" height="300px" style="padding-bottom:10px;"></center>
+<center><img src="{{ site.baseurl }}/assets/images/gr/gr_statictoxic/gr_diffeq_sol.png" align = "center" height="300px" style="padding-bottom:10px;"></center>
 <p>
   For <font color="light blue"><b>GR<sub>static</sub></b></font>, the cytostatic part of growth-rate inhibition, we consider the ratio of the treated growth-rate among viable cells to the un-treated growth rate <b><i>k<sub>s</sub>(c)/k<sub>s</sub>(0)</i></b>. Again, we exponentiate it and subtract 1 to bound our values for the curve. Since <font color="light blue"><b>GR<sub>static</sub></b></font> only characterizes slowed population growth and not cell death, it is bounded between 1 and 0.
 </p>
 <p>
   For <font color="red"><b>GR<sub>toxic</sub></b></font>, we expect the un-treated death rate <b><i>k<sub>d</sub>(0)</i></b> to be close to zero, so to make a more robust measure we use the difference of the death rates <b><i>k<sub>d</sub>(c) - k<sub>d</sub>(0)</i></b> rather than their ratio. As with <font color="light blue"><b>GR<sub>static</sub></b></font>, we exponentiate and subtract 1. This makes it so that <font color="red"><b>GR<sub>toxic</sub></b></font> is bounded between 0 and -1.
 </p>
-<center><img src="/assets/images/gr/gr_statictoxic/gr_vs_gr_sd.png" align = "center" height="275px" style="padding-bottom:10px;"></center>
+<center><img src="{{ site.baseurl }}/assets/images/gr/gr_statictoxic/gr_vs_gr_sd.png" align = "center" height="275px" style="padding-bottom:10px;"></center>
 <p>
   As with the original GR method, we fit logistic curves to model the <font color="light blue"><b>GR<sub>static</sub></b></font> and <font color="red"><b>GR<sub>toxic</sub></b></font> values as a function of the log treatment concentration.
 </p>
-<center><img src="/assets/images/gr/gr_statictoxic/GR_static_toxic_growth.png" align="center" height="275px" style="padding-bottom:10px;"></center>
-<center><img src="/assets/images/gr/gr_statictoxic/GR_static_toxic_fitted_curves.png" align="center" height="275px" style="padding-bottom:10px;"></center>
+<center><img src="{{ site.baseurl }}/assets/images/gr/gr_statictoxic/GR_static_toxic_growth.png" align="center" height="275px" style="padding-bottom:10px;"></center>
+<center><img src="{{ site.baseurl }}/assets/images/gr/gr_statictoxic/GR_static_toxic_fitted_curves.png" align="center" height="275px" style="padding-bottom:10px;"></center>
 <p>
   As with the original GR curves, we extract summary metrics from the <font color="light blue"><b>GR<sub>static</sub></b></font> and <font color="red"><b>GR<sub>toxic</sub></b></font> curves such as <b><i>GR<sub>50</sub></i></b>, <b><i>GR<sub>inf</sub></i></b>, <b><i>GR<sub>AOC</sub></i></b>, etc. These metrics summarize the growth response of the viable and dead cell populations, respectively.
 </p>

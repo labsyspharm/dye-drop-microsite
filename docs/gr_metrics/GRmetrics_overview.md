@@ -19,10 +19,10 @@ parent: GR metrics
 
 Briefly, the growth-rate inhibition is given by the ratio of the growth-rate of the treated cells **k(c)** to that of the untreated cells **k(0)**. We normalize this ratio by exponentiating it and subtracting one so that it falls between -1 and 1 for growth-inhibiting and cytotoxic treatments.
 
-![](/assets/images/gr/gr_overview/GR_rates_final.png)
+![]({{ site.baseurl }}/assets/images/gr/gr_overview/GR_rates_final.png)
 
 <!---
-<center><img src="/assets/images/gr/GR_rates_final.png" align="center" height="100px" style="padding-bottom:10px;"></center>
+<center><img src="{{ site.baseurl }}/assets/images/gr/GR_rates_final.png" align="center" height="100px" style="padding-bottom:10px;"></center>
 -->
 Because it is difficult to measure the growth-rate at any one time, we use the starting population and endpoint measures to estimate the average growth-rate throughout the experiment. Using the definitions above, we can calculate the growth-rate of the un-treated control as 
 <p style="text-align: center;">
@@ -43,17 +43,17 @@ GR(c) = 2^[ k(c)/k(0) ] - 1 = 2^[ log<sub>2</sub>(x(c)/x<sub>0</sub>) / log<sub>
 </i></b>
 </p>
 
-![](/assets/images/gr/gr_overview/GR_endpoints_final.png)
+![]({{ site.baseurl }}/assets/images/gr/gr_overview/GR_endpoints_final.png)
 
 The GR value relates naturally to a treatment's effects on cell population growth. For partially cytostatic treatments (where growth is slowed, but not completely halted) GR values fall between 1 and 0. A GR value of zero represents cytostasis, or completely halted population growth. Cytotoxic treatments (where cell population declines) produce GR values between 0 and -1. Finally, a GR value of greater than one signifies a treatment that *promotes* growth.
 
-![](/assets/images/gr/gr_overview/GR_curve_annotated.png)
+![]({{ site.baseurl }}/assets/images/gr/gr_overview/GR_curve_annotated.png)
 
 GR values are used to fit a logistic dose-response curve where the x-axis is the log treatment concentration. We
 constrain the upper asymptote of the curve to a value of 1 because we would expect no change in growth rate for extremely low concentrations. GR values greater than one are allowed, but we constrain the fitted curve to less
 than one since we focus on growth-inhibiting and cytotoxic treatments. For treatments that promote growth, and for treatments that poorly fit a logistic curve, we fit a flat horizontal line.
 
-![](/assets/images/gr/gr_overview/rel_viability_vs_gr_curve.png)
+![]({{ site.baseurl }}/assets/images/gr/gr_overview/rel_viability_vs_gr_curve.png)
 
 Just like percent viability curves, GR curves can be summarized by a number of metrics. In place of **IC<sub>50</sub>**, the measure of concentration that gives 50% relative viability, we report **GR<sub>50</sub>**, the concentration at which growth is reduced by 50% (where the GR curve intersects 0.5). In place of **E<sub>inf</sub>**, the lower asymptote of the relative viability curve (the maximal theoretical drug effect), we report **GR<sub>inf</sub>**, the lower asymptote of the GR curve. And so on.
 

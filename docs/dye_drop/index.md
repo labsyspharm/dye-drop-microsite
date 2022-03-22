@@ -12,7 +12,7 @@ previously developed for computing GR metrics in a single tool box.
 
 The figure below summarizes our experimental and computational pipelines.
 
-<center><img src="/assets/images/dye_drop/ddd_diagram_fig_s6.png" align = "center" style="padding-bottom:10px;"></center>
+<center><img src="{{ site.baseurl }}/assets/images/dye_drop/ddd_diagram_fig_s6.png" align = "center" style="padding-bottom:10px;"></center>
 
 <!---
 Provide information on the methods of this publication. This section also shows you how to construct a page hierachy structure. By default, this page will have a Table of Content at the bottom to show all its "children".
@@ -27,7 +27,7 @@ You can also make an beautiful grid to show off different parts of the methodolo
 ## Method 1
 This is a description of this part of the method.
 
-[![example](../assets/images/sample-image.jpg)](http://example.com/)
+[![example](..{{ site.baseurl }}/assets/images/sample-image.jpg)](http://example.com/)
 {: .mt-6 .mr-10}
 </div>
 
