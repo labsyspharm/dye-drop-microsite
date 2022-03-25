@@ -46,7 +46,7 @@ Image or store fixed cells in PBS at 4&deg;C
 
 **Step 2: LDR + EdU Stain**
     
-Using a multi-channel pipette, gently add Live/Dead Red (LDR) and EdU(5-ethylnyl-2'-deoxyuridine) in 10% OptiPrep<sup>TM</sup> in PBS soluion down the wall of the wells.
+Using a multi-channel pipette, gently add Live/Dead Red (LDR) and EdU(5-ethylnyl-2'-deoxyuridine) in 10% OptiPrep<sup>TM</sup> in PBS solution down the wall of the wells.
 
 <span style="color:#F20D0A">Dead cells are stained by LDR.</span>
 
