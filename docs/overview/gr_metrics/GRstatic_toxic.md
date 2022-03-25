@@ -1,8 +1,8 @@
 ---
 layout: default
-nav_order: 2
+nav_order: 13
 title: Static/Toxic GR
-parent: GR metrics
+parent: Growth rate metrics
 ---
 
 ## GR static and GR toxic

@@ -1,8 +1,8 @@
 ---
 layout: default
-nav_order: 4
-title: Parameter specifications
-parent: Deep Dye Drop
+nav_order: 5
+title: Parameter reference
+
 ---
 
 # Parameter specifications

@@ -1,8 +1,8 @@
 ---
 layout: default
 nav_order: 2
-title: Quick start
-parent: Deep Dye Drop
+title: Tutorial
+has_children: true
 ---
 
 # Quick start

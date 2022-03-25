@@ -2,7 +2,7 @@
 layout: default
 nav_order: 8
 title: Example script
-parent: Deep Dye Drop
+parent: Tutorial
 ---
 
 # An example of running the automated gating script

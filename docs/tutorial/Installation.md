@@ -2,7 +2,7 @@
 layout: default
 nav_order: 3
 title: Installation
-parent: Deep Dye Drop
+parent: Tutorial
 ---
 
 # Installation

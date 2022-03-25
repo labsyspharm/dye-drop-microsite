@@ -1,8 +1,8 @@
 ---
 layout: default
-nav_order: 1
-title: GR metrics overview
-parent: GR metrics
+nav_order: 12
+title: GR overview
+parent: Growth rate metrics
 ---
 
 ## GR metrics
