@@ -11,9 +11,9 @@ parent: Home
 1. [Overview](./overview/) provides relevant background information on the dye drop experimental and computational methods, and the associated growth rate metrics.
 
 
-2. The [tutorial](./tutorial/)\* provides a step-by-step example workflow that allows beginners to process an example data set computationally with deep dye drop.
+2. [Tutorial](./tutorial/)\* outlines a step-by-step example workflow that allows beginners to process an example data set computationally with deep dye drop.
 
-3. The [parameter reference](./parameters.html) page provides detailed documentation on how to use dye drop to extract cell cycle information
+3. [Parameter reference](./parameters.html) provides detailed documentation on how to use dye drop to extract cell cycle information
 
 
  >\* *First time users should start with the tutorial to learn how deep dye drop works*
