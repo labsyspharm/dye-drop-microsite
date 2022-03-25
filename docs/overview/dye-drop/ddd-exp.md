@@ -22,7 +22,7 @@ Dye drop methods use a sequence of solutions each made slightly denser than the 
 
 **Step 2: Stain**
 
-Using a multi-channel pipette, gently add Hoechst+Live/Dead Red in 10% OptiPrep<sup>TM</sup> in shosphate buffered saline (PBS) down the wall of the wells. 
+Using a multi-channel pipette, gently add Hoechst+Live/Dead Red (LDR) in 10% OptiPrep<sup>TM</sup> in shosphate buffered saline (PBS) down the wall of the wells. 
 
 <span style="color:#F20D0A">Dead cells are stained by LDR.</span>
 
@@ -46,7 +46,7 @@ Image or store fixed cells in PBS at 4&deg;C
 
 **Step 2: LDR + EdU Stain**
     
-Using a multi-channel pipette, gently add Live/Dead Red and EdU(5-ethylnyl-2'-deoxyuridine) in 10% OptiPrp<sup>TM</sup> in PBS soluion down the wall of the wells.
+Using a multi-channel pipette, gently add Live/Dead Red (LDR) and EdU(5-ethylnyl-2'-deoxyuridine) in 10% OptiPrep<sup>TM</sup> in PBS soluion down the wall of the wells.
 
 <span style="color:#F20D0A">Dead cells are stained by LDR.</span>
 
