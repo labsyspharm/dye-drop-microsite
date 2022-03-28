@@ -9,7 +9,7 @@ hero_ctas:
   - label: "Overview"
     link: "./overview/"
   - label: "Tutorial"
-    link: "./tutorial/"
+    link: "./tutorial.html"
   - label: "Reference docs"
     link: "./parameters.html"
 last_modified_date: 2022-03-25
