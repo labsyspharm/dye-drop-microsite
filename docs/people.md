@@ -2,18 +2,10 @@
 layout: default
 title: People
 nav_order: 8
-last_modified_date: 2022-03-21
+last_modified_date: 2022-03-28
 ---
 
-{: .no_toc }
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
+<!---
 
 # Title
 
@@ -23,13 +15,13 @@ last_modified_date: 2022-03-21
 
 High throughput measurement of cell perturbation, by libraries of small molecules or gene knockouts, is a key step in functional genomics and pre-clinical drug development. However, it is difficult to perform viable, single-cell assays in 384-well plates, limiting many studies to simple well-average measurements (e.g. CellTiter-Glo®). Here we describe a public domain “Dye Drop” method in which sequential density displacement is used to perform multi-step assays for cell viability and EdU incorporation followed by immunofluorescence imaging. The method is rapid, reproducible, can be readily customized, and is compatible with either manual or automated laboratory equipment. We demonstrate Dye Drop in the collection of dose-response data for 67 drugs in 58 breast cancer cell lines and separate cytostatic and cytotoxic responses, thereby providing new insight into the effects of specific drugs on cell cycle progression and cell viability. Dye Drop substantially improves the tradeoff between data content and cost, enabling collection of large information-rich datasets.
 
+
 # Graphical Abstract
 
 <img src="{{ site.baseurl }}/assets/images/dye_drop/graphical_abstract.png" class="center">
 
-<!---
 \\# Key findings
---->
+
 
 # Publication Information
 
@@ -48,41 +40,30 @@ High throughput measurement of cell perturbation, by libraries of small molecule
 __Corresponding Author__: peter_sorger@hms.harvard.edu
 
 DOI: 10.1101/2021.08.27.457854
-
-PMID: 
-
-To view full publication (in a new tab):
+PMID:
 
 [BioRxiv](https://doi.org/10.1101/2021.08.27.457854){: .btn .btn-green .mr-4 }{:target="_blank"}{:rel="noopener noreferrer"}
-<!---
-\\[Journal Site](https://nature.com/){: .btn .btn-green .mr-4 }{:target="_blank"}{:rel="noopener noreferrer"}
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/){: .btn .btn-blue .mr-4}{:target="_blank"}{:rel="noopener noreferrer"}
 --->
 
-# Author Information
+# People
 
-Caitlin E. Mills: [web page](https://scholar.harvard.edu/caitlinmills/bio) [ORCiD](https://orcid.org/0000-0002-2608-4084)
+## Lead Developers
+* [Caitlin E. Mills](https://scholar.harvard.edu/caitlinmills/bio)
+* [Kartik Subramanian](https://scholar.harvard.edu/skartik/biography)
+* [Marc Hafner](https://sites.google.com/view/marchafner)
 
-Kartik Subramanian: [web page](https://scholar.harvard.edu/skartik/biography) [ORCiD](https://orcid.org/0000-0002-6900-8882)
+## Contributors
+* [Mario Niepel](https://sorger.med.harvard.edu/people/mario-niepel/)
+* [Luca Gerosa](https://scholar.harvard.edu/gerosa)
+* [Mirra Chung](https://scholar.harvard.edu/mchung/project-information)
+* [Chiara Victor](https://scholar.harvard.edu/chiara/home)
+* [Ben Gaudio](https://scholar.harvard.edu/bengaudio/home)
+* [Clarence Yapp](https://scholar.harvard.edu/clarence/who-clarence)
 
-Marc Hafner: [web page](https://scholar.harvard.edu/hafner) [ORCiD](https://orcid.org/0000-0003-1337-7598)
-<!--
-alternative scholar page: https://sites.google.com/view/marchafner
--->
+## Website Contributors
+* [Juliann Tefft](https://www.linkedin.com/in/juliann-tefft)
+* [Han Xu](https://www.linkedin.com/in/han-xu-16a0216b/)
+* [Nicholas Clark](https://github.com/NicholasClark/)
 
-Mario Niepel: [web page](https://sorger.med.harvard.edu/people/mario-niepel/) [ORCiD](https://orcid.org/0000-0003-1415-6295)
-<!--
-alternative website: https://scholar.harvard.edu/mario_niepel/biocv
--->
-
-Luca Gerosa: [web page](https://scholar.harvard.edu/gerosa) [ORCiD](https://orcid.org/0000-0001-6805-9410)
-
-Mirra Chung: [web page](https://scholar.harvard.edu/mchung/project-information) [ORCiD](https://orcid.org/0000-0002-4033-7930)
-
-Chiara Victor: [web page](https://scholar.harvard.edu/chiara/home) [ORCiD](https://orcid.org/0000-0002-9002-1328)
-
-Ben Gaudio: [web page](https://scholar.harvard.edu/bengaudio/home) [ORCiD](https://orcid.org/0000-0002-7003-5052)
-
-Clarence Yapp: [web page](https://scholar.harvard.edu/clarence/who-clarence)  [ORCiD](https://orcid.org/0000-0003-1144-5710)
-
-Peter K. Sorger: [web page](https://sorger.med.harvard.edu/people/peter-sorger-phd/) [ORCiD](https://orcid.org/0000-0002-3364-1838)
+## Laboratory Principal Investigator(s):
+* [Peter K. Sorger](https://scholar.google.com/citations?user=wS6Ii_cAAAAJ&hl=en)

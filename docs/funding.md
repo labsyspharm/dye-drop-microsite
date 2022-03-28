@@ -1,6 +1,7 @@
 ---
 layout: default
 nav_order: 10
+title: Funding
 last_modified_date: 2022-03-21
 ---
 
