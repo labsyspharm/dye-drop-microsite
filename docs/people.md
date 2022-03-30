@@ -48,22 +48,22 @@ PMID:
 # People
 
 ## Lead Developers
-* [Caitlin E. Mills](https://scholar.harvard.edu/caitlinmills/bio)
-* [Kartik Subramanian](https://scholar.harvard.edu/skartik/biography)
-* [Marc Hafner](https://sites.google.com/view/marchafner)
+* [Caitlin E. Mills](https://scholar.harvard.edu/caitlinmills/bio){:target="_blank"}
+* [Kartik Subramanian](https://scholar.harvard.edu/skartik/biography){:target="_blank"}
+* [Marc Hafner](https://sites.google.com/view/marchafner){:target="_blank"}
 
 ## Contributors
-* [Mario Niepel](https://sorger.med.harvard.edu/people/mario-niepel/)
-* [Luca Gerosa](https://scholar.harvard.edu/gerosa)
-* [Mirra Chung](https://scholar.harvard.edu/mchung/project-information)
-* [Chiara Victor](https://scholar.harvard.edu/chiara/home)
-* [Ben Gaudio](https://scholar.harvard.edu/bengaudio/home)
-* [Clarence Yapp](https://scholar.harvard.edu/clarence/who-clarence)
+* [Mario Niepel](https://sorger.med.harvard.edu/people/mario-niepel/){:target="_blank"}
+* [Luca Gerosa](https://scholar.harvard.edu/gerosa){:target="_blank"}
+* [Mirra Chung](https://scholar.harvard.edu/mchung/project-information){:target="_blank"}
+* [Chiara Victor](https://scholar.harvard.edu/chiara/home){:target="_blank"}
+* [Ben Gaudio](https://scholar.harvard.edu/bengaudio/home){:target="_blank"}
+* [Clarence Yapp](https://scholar.harvard.edu/clarence/who-clarence){:target="_blank"}
 
 ## Website Contributors
-* [Juliann Tefft](https://www.linkedin.com/in/juliann-tefft)
-* [Han Xu](https://www.linkedin.com/in/han-xu-16a0216b/)
-* [Nicholas Clark](https://github.com/NicholasClark/)
+* [Juliann Tefft](https://www.linkedin.com/in/juliann-tefft){:target="_blank"}
+* [Han Xu](https://www.linkedin.com/in/han-xu-16a0216b/){:target="_blank"}
+* [Nicholas Clark](https://github.com/NicholasClark/){:target="_blank"}
 
 ## Laboratory Principal Investigator(s):
-* [Peter K. Sorger](https://scholar.google.com/citations?user=wS6Ii_cAAAAJ&hl=en)
+* [Peter K. Sorger](https://scholar.google.com/citations?user=wS6Ii_cAAAAJ&hl=en){:target="_blank"}

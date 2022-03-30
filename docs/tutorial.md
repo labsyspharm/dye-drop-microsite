@@ -9,7 +9,7 @@ last_modified_date: 2022-03-28
 
 ## Installation
 1. Open a terminal of your choice.
-2. Clone the [github repository](https://github.com/datarail/DrugResponse)
+2. Clone the [github repository](https://github.com/datarail/DrugResponse){:target="_blank"}
   ```
   $ git clone https://github.com/datarail/DrugResponse.git
   ```

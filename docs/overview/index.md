@@ -18,7 +18,7 @@ The “Dye Drop” and “Deep Dye Drop” assays [(Mills et al., 2021)](https:/
 *We describe several different ways to implement Dye Drop assays to obtain detailed cell cycle information and to quantify single-cell phenotypes that are often obscured by population-average assays.*
 
 {: .text-center}
-[View example dataset](./#extracting-cell-cycle-information){: .btn .btn-green}  
+[View example data](./#applying-dye-drop){: .btn .btn-green}  
 
 <br>
 
