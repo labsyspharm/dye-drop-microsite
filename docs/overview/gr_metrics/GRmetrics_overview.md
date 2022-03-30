@@ -5,7 +5,7 @@ title: GR overview
 parent: Growth rate metrics
 ---
 
-## GR metrics
+## Growth rate (GR) metrics
 
 ### Definitions:
 - **x(c,t)** = the amount of **viable cells** at time *t* at drug concentration *c* (column: **cell\_count**)
