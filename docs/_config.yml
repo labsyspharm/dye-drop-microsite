@@ -39,14 +39,17 @@ back_to_top: true
 back_to_top_text: "Back to Top"
 
 # License Information
-license_name: "CC0 1.0 License"
-license_url: "https://github.com/labsyspharm/blank-pub-microsite/blob/main/LICENSE"
+license:
+  - description: "Contents of this site is licensed under"
+    name: <img alt="CC0 1.0 License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/1.0/80x15.png" />
+    url: "https://github.com/labsyspharm/dye-drop-microsite/blob/main/LICENSE"
+
 
 # Linked logos
 footer_logos:
   - name: "Laboratory of Systems Pharmacology"
     image: "assets/images/logo_lsp_white.svg" # this is stored in the remote theme's repo
-    url: "https://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology/about/"
+    url: "https://labsyspharm.org/"
   - name: "Harvard Medical School"
     image: "/assets/images/logo_hms.svg" # this is stored in the remote theme's repo
     url: "https://hms.harvard.edu/"
@@ -56,11 +59,11 @@ last_edit_timestamp: true # show or hide edit time - page must have `last_modifi
 last_edit_time_format: "%b %e %Y" # format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 # Footer "Edit this page on GitHub" link text
-gh_edit_link: true # show or hide edit this page link
+gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub."
 gh_edit_repository: "https://github.com/labsyspharm/dye-drop-microsite" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
-gh_edit_source: docs # the source that your files originate from
+gh_edit_source: docs
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 
