@@ -5,11 +5,16 @@ title: Experimental Method
 parent: Overview
 ---
 
-A common contributor of irreproducibility in high content live-cell or immunofluorescent assays performed in mulit-well plates is uneven loss of cells, particularly those that are dying or undergoing mitosis (both of which are less adherent than interphase cells). 
+Dye Drop Experimental Protocol
+{: .fs-8}
+{: .fw-400}
+{: .text-blue-200}
 
 Dye drop methods use a sequence of solutions each made slightly denser than the last by addition of iodixanol (OptiPrep<sup>TM</sup>), an inert liquid used in radiology. Denser solution displaces the previous solution with high efficiency and minimal mixing. This effectively eliminates the need for mix and wash steps, where most of the uneven cell loss occurs.
 
-*On this page, we show overviews of the dye drop and deep dye drop procedures. Details like solution volume and incubation time will vary based on the equipment and reagents used. For more detailed protocol used to generate our published results, please head to our [protocols.io page](https://www.protocols.io/view/deep-dye-drop-protocol-96zh9f6).*
+{: .fs-3}
+{: .text-center}
+*On this page, we show overviews of the dye drop and deep dye drop procedures. Details like solution volume and incubation time will vary based on the equipment and reagents used. For more detailed protocol used to generate our published results, please head to our [protocols.io page](https://www.protocols.io/view/deep-dye-drop-protocol-96zh9f6){:target="_blank"}.*
 
 * TOC
 {:toc}
