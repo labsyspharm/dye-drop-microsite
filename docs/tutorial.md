@@ -25,6 +25,9 @@ last_modified_date: 2022-03-28
   - The example directory (located in `DrugResponse/python/cell_cycle_gating/examples/`) contains a Raw data folder `EX_01[78956]`.
     - This folder contains 10 .txt files, each corresponding to single cell data from a given well (wells C3 to C12).
 2. Type `python` to open a python terminal or open the Jupyter notebook `DDR_example.ipynb` and execute the steps in the notebook.
+  
+  *\* Based on the python version, you may need to use `python3` or other similar commands to launch the terminal. Check with the documentatation of your python distribution to be sure.*
+  
   - The code is reproduced below with a summary of each step.
   - The example script will: 1) read the contents of the folder, 2) perform automated gating, and 3) output a .csv file and .pdf file that contain well-level summaries of number of live/dead cells and fraction of cells in diferent phases of the cell cycle. In addition, a pdf file containing figures that show the gating per well is available for review.
   - This example dataset contains 10 wells and should run within a minute. An entire plate with ~300 wells is expected to run in 10-15 minutes.
@@ -62,7 +65,7 @@ last_modified_date: 2022-03-28
   ```
 
 - `dfs` is data frame that will be returned containing well-level summary of live/dead and fraction of cells in S, G1, G2 M, etc.
-- Two files `EX_01[78956].csv` and `EX_01[78956].pdf` will be saved in your local directory.
+- Two files `summary_EX_01[78956].csv` and `summary_EX_01[78956].pdf` will be saved in a new `results/` folder in your local directory.
   - `EX_01[78956].csv` - A comma-separated text file with a table containing rows corresponding to wells in the 96 well plate.
   <br>Each row contains a well-level summary of the number of live/dead cells and fraction of cells in each phase of the cell cycle for one well.
   <figure>
