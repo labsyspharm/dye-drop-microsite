@@ -8,6 +8,8 @@ hero_body: "A versatile, low-cost, and highly reproducible microscopy assay that
 hero_ctas:
   - label: "Overview"
     link: "./overview/"
+  - label: "Protocol"
+    link: "./protocol.html"	
   - label: "Tutorial"
     link: "./tutorial.html"
   - label: "Reference docs"
