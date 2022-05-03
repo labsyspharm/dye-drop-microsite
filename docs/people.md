@@ -1,7 +1,7 @@
 ---
 layout: default
 title: People
-nav_order: 8
+nav_order: 12
 last_modified_date: 2022-03-28
 ---
 

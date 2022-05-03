@@ -1,8 +1,8 @@
 ---
 layout: default
-nav_order: 1
-title: Experimental Method
-parent: Overview
+nav_order: 3
+title: Experimental protocol
+
 ---
 
 Dye Drop Experimental Protocol

@@ -11,7 +11,7 @@ The “Dye Drop” and “Deep Dye Drop” assays [(Mills et al., 2021)](https:/
 
 *Dye drop consists of:*  
 
-[1. Wet-lab experiment](./#experimental-methods){: .btn .btn-outline .btn-arrow } [2. Imaging samples](./#resulting-images){: .btn .btn-green .btn-arrow } [3. Extracting image data](./#extracting-cell-cycle-information){: .btn .btn-outline .btn-arrow }
+[1. Wet-lab experiment](/protocol.html){: .btn .btn-outline .btn-arrow } [2. Imaging samples](./#resulting-images){: .btn .btn-green .btn-arrow } [3. Extracting image data](./#extracting-cell-cycle-information){: .btn .btn-outline .btn-arrow }
 
 <br>
 
@@ -45,7 +45,7 @@ The cells are cultured, stained, and fixed with a method identical to the dye dr
 {: .text-center }
 {: .fw-500 }
 {: .fs-5}
-*A detailed protocol for both Dye Drop and Deep Dye Drop is available in [Experimental Method]({{site.baseurl}}/overview/dye-drop/ddd-exp.html).*
+*A detailed protocol for both Dye Drop and Deep Dye Drop is available in [Experimental Method]({{site.baseurl}}/protocol.html).*
 
 <br>
 

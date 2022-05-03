@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How to cite?
-nav_order: 11
+nav_order: 18
 last_modified_date: 2022-03-28
 ---
 

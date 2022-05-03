@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Dye Drop tutorial
-nav_order: 3
-last_modified_date: 2022-03-28
+title: Computational tutorial
+nav_order: 5
 ---
 
-# Dye Drop tutorial
+# Computational tutorial
 
 ## Installation
 1. Open a terminal of your choice.
