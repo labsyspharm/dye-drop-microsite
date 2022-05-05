@@ -21,7 +21,7 @@ Dye drop methods use a sequence of solutions each made slightly denser than the 
 
 ## Dye Drop
 
-<p style="text-align:center;"><img src="../../assets/images/dye_drop/dd_exp_overview.png" alt="Dye drop experiment overview" width="600"></p>
+<p style="text-align:center;"><img src="{{ site.baseurl }}/assets/images/dye_drop/dd_exp_overview.png" alt="Dye drop experiment overview" width="600"></p>
 
 **Step 1: Start with cells in growth medium**
 
@@ -45,7 +45,7 @@ Image or store fixed cells in PBS at 4&deg;C
 
 ## Deep Dye Drop
 
-<p style="text-align:center;"><img src="../../assets/images/dye_drop/ddd_exp_overview.png" alt="Deep dye drop experiment overview" /></p>
+<p style="text-align:center;"><img src="{{ site.baseurl }}/assets/images/dye_drop/ddd_exp_overview.png" alt="Deep dye drop experiment overview" /></p>
 
 **Step 1: Start with cells in growth medium**
 
