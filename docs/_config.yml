@@ -21,7 +21,7 @@
 title: Deep Dye Drop Microsite
 description: >- # this means to ignore newlines until "baseurl:"
   A web site with a description of the Deep Dye Drop method.
-logo: "/assets/images/general/dyedrop-logo.png"
+logo: "/assets/images/general/DD-logo.png"
 hero_background: "/assets/images/general/ddd_background.png"
 
 # Build settings
