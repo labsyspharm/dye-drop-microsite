@@ -23,62 +23,62 @@ Dye drop methods use a sequence of solutions each made slightly denser than the 
 
 <p style="text-align:center;"><img src="{{ site.baseurl }}/assets/images/dye_drop/dd_exp_overview.png" alt="Dye drop experiment overview" width="600"></p>
 
-**Step 1: Start with cells in growth medium**
+**Step 1: Start with adherent cells in growth medium**
 
 **Step 2: Stain**
 
-Using a multi-channel pipette, gently add Hoechst+Live/Dead Red (LDR) in 10% OptiPrep<sup>TM</sup> in shosphate buffered saline (PBS) down the wall of the wells. 
+Using a multi-channel pipette, gently add Hoechst+LIVE/DEAD Far Red Fluorescent dye (LDR) in 10% OptiPrep<sup>TM</sup> in phosphate buffered saline (PBS) along the wall of the wells. 
 
-<span style="color:#F20D0A">Dead cells are stained by LDR.</span>
+<span style="color:#F20D0A">Only dead cells are stained by LDR.</span>
 
 **Step 3: Fix**
 
-Add 4% formaldehyde in 20% OptiPrep<sup>TM</sup> in PBS down the wall of the wells. This solution will displace the stain solution at the bottom of the well.
+Add 4% formaldehyde in 20% OptiPrep<sup>TM</sup> in PBS along the wall of the wells. This solution will displace the stain solution at the bottom of the well.
 
 **Step 4: Aspirate**
 
-Remove the solutions in the wells, leaving some formaldehyde at the bottom to minimize cell loss.
+Remove the solutions in the wells, leaving some formaldehyde at the bottom to minimize cell loss. Refill the wells with PBS, seal the plates.
 
 **Step 5: Image or Store**
 
-Image or store fixed cells in PBS at 4&deg;C
+Image plates immediately or store fixed cells in PBS at 4&deg;C up to several weeks.
 
 ## Deep Dye Drop
 
 <p style="text-align:center;"><img src="{{ site.baseurl }}/assets/images/dye_drop/ddd_exp_overview.png" alt="Deep dye drop experiment overview" /></p>
 
-**Step 1: Start with cells in growth medium**
+**Step 1: Start with adherent cells in growth medium**
 
 **Step 2: LDR + EdU Stain**
     
-Using a multi-channel pipette, gently add Live/Dead Red (LDR) and EdU(5-ethylnyl-2'-deoxyuridine) in 10% OptiPrep<sup>TM</sup> in PBS solution down the wall of the wells.
+Using a multi-channel pipette, gently add LIVE/DEAD Far Red FLuorescent dye (LDR) and EdU (5-ethylnyl-2'-deoxyuridine) in 10% OptiPrep<sup>TM</sup> in PBS solution along the wall of the wells.
 
-<span style="color:#F20D0A">Dead cells are stained by LDR.</span>
+<span style="color:#F20D0A">Only dead cells are stained by LDR.</span>
 
-**Step 3-5: Same as Dye Drop**
+**Steps 3-5: Same as Dye Drop**
     
 Store in PBS at the end of Step 5
 
-**Step 6: Permeablize**
+**Step 6: Permeabilize**
 
 Add 0.5% Triton X-100 in 10% OptiPrep<sup>TM</sup> to permeabilize cell membranes. 
 
 **Step 7: Click Label EdU**
 
-Fluorescently label EdU with a fluorescent dye azide via Click chemistry in 20% OptiPrep<sup>TM</sup>
+Label EdU with a fluorescent dye azide via Click chemistry in 20% OptiPrep<sup>TM</sup>
 
-<span style="color:#46C7FC">S-phase cells are stained by fluorecently-labeled EdU.</span>
+<span style="color:#46C7FC">Only S-phase cells are stained by fluorescently-labeled EdU.</span>
 
 **Step 8: Aspirate**
 
-Remove solutions from the wells via gentle aspiration
+Remove solutions from the wells via gentle aspiration.
 
 **Step 9: Block**
 
-Add blocking solution
+Add blocking solution.
 
 **Step 10: pH3 Antibody**
 
 Stain with a conjugated antibody against phospho-histone H3 (pH3) in 10% OptiPrep<sup>TM</sup>
 
-<span style="color:#0FF169">M-phase cells are stained by pH3-targeting antibodies.</span>
+<span style="color:#0FF169">Only M-phase cells are stained by the pH3 antibody.</span>
