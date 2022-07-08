@@ -14,7 +14,7 @@ Dye drop methods use a sequence of solutions each made slightly denser than the 
 
 {: .fs-3}
 {: .text-center}
-*On this page, we give an overview of the dye drop and deep dye drop protocols.* **For more detailed protocols used to generate our published results, please visit [protocols.io page](https://www.protocols.io/view/deep-dye-drop-protocol-j8nlkeww5l5r/v1){:target="_blank"}.**
+*On this page, we give an overview of the dye drop and deep dye drop protocols.* **For more detailed protocols used to generate our published results, please visit [protocols.io](https://www.protocols.io/view/deep-dye-drop-protocol-j8nlkeww5l5r/v1){:target="_blank"}.**
 
 * TOC
 {:toc}
