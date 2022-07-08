@@ -11,7 +11,7 @@ The “Dye Drop” and “Deep Dye Drop” assays [(Mills et al., 2021)](https:/
 
 *Dye drop consists of:*  
 
-[1. Wet-lab experiment](/protocol.html){: .btn .btn-outline .btn-arrow } [2. Imaging samples](./#resulting-images){: .btn .btn-green .btn-arrow } [3. Extracting image data](./#extracting-cell-cycle-information){: .btn .btn-outline .btn-arrow }
+[1. Wet-lab experiment](/protocol.html){: .btn .btn-outline } [2. Imaging samples](./#resulting-images){: .btn .btn-green } [3. Extracting image data](./#extracting-cell-cycle-information){: .btn .btn-outline }
 
 <br>
 
@@ -29,8 +29,8 @@ Dye drop uses a sequence of solutions where each solution is made slightly dense
 {: .text-center }
 {: .fs-3 }
 {: .fw-300 }
-![Dye drop experiment overview]({{ site.baseurl }}/assets/images/figures/1-exp.png)
-For example, cells plated in 384-well plates (a single well is depicted) are exposed to different perturbagens for a set amount of time and then stained with Hoechst (to label all nuclei) and a LIVE/DEAD dye (to label dead cells) prepared in solution with OptiPrep<sup>TM</sup>. Cells are then fixed by layering in a denser solution containing formaldehyde and more OptiPrep<sup>TM</sup> to the wells. 
+![Dye Drop protocol overview]({{ site.baseurl }}/assets/images/figures/1-exp.png)
+Cells plated in 384-well plates (a single well is depicted) are exposed to different perturbagens for a set amount of time and then stained with Hoechst (to label all nuclei) and a LIVE/DEAD dye (to label dead cells) prepared in solution with OptiPrep<sup>TM</sup>. Cells are then fixed by layering in a denser solution containing formaldehyde and more OptiPrep<sup>TM</sup> to the wells. 
 
 ### Deep dye drop
 
@@ -39,13 +39,13 @@ Deep Dye Drop incorporates EdU and antibody-based staining to gain detailed cell
 {: .text-center }
 {: .fs-3 }
 {: .fw-300 }
-![Deep dye drop experiment overview]({{ site.baseurl }}/assets/images/figures/2-exp.png)
-The cells are cultured, stained, and fixed with a method identical to the dye drop protocol above. In this example, EdU is used as a cell cycle dye. EdU is incorporated into newly synthesized DNA during chromosome replication and must be activated after fixing in order to visualize the stain. Afterwards the wells are rinsed, blocked to prevent non-specific antibody binding, and incubated with antibodies that specifically bind a molecule or protein within the sample.
+![Deep Dye Drop protocol overview]({{ site.baseurl }}/assets/images/figures/2-exp.png)
+Cells are plated and treated as above, they are then incubated with a LIVE/DEAD dye and EdU (incorporated into newly synthesized DNA by cells in S-phase) prepared in solution with OptiPrep<sup>TM</sup>, and fixed as above. Cells are then permeabilized to facilitate antibody staining, blocked to prevent non-specific antibody binding, EdU is labeled with a fluorescent dye, cells are stained with a phospho-histone H3 antibody (to identify M-phase cells) and Hoechst (to label all nuclei and measure DNA content) overnight.
 
 {: .text-center }
 {: .fw-500 }
 {: .fs-5}
-*Detailed protocols for both Dye Drop and Deep Dye Drop are available in [Experimental Protocol]({{site.baseurl}}/protocol.html).*
+*See the [Experimental Protocol]({{site.baseurl}}/protocol.html) section for more details.*
 
 <br>
 
@@ -60,9 +60,9 @@ This sample was stained with 4 common markers:
 
 {: .fs-3 }
 {: .fw-300 }
->1. Hoechst, a molecule that specifically binds the minor groove of double stranded DNA and can be used to visualize DNA content within a nucleus
->2. EdU, a molecule that is incorporated into newly synthesized DNA and indicates cells in the S-phase
->3. Live/dead red, a stain that binds free amines (The dye can bind free-amines on the surface of both live and dead cells, but in dead cells, the dye penetrates the disrupted cell membrane and binds intracellular amines, resulting in a much brighter signal.)
+>1. Hoechst, a molecule that binds the minor groove of double stranded DNA is used to visualize nuclei and measure DNA content
+>2. EdU, a molecule that is incorporated into newly synthesized DNA while cells are in S-phase
+>3. LIVE/DEAD red (LDR), a stain that penetrates the disrupted cell membrane and binds intracellular amines in dead cells
 >4. pH3 (phospho-histone H3), a protein that is phosphorylated during the chromosomal condensation of M-phase
 
 {: .text-center}
@@ -74,23 +74,23 @@ This sample was stained with 4 common markers:
 ## Extracting cell cycle information
 
 ### Live / Dead cells  
-Using Hoechst and the live/dead stain, cells that have low Hoechst signal and high live/dead signal are quantified as dead cells.
+Using Hoechst and LDR, cells that have high LDR signal and/or low DNA content are counted as dead cells.
 
 ### M-Phase
-Cells that are stained with pH3 are counted as cells within M-phase and actively undergoing mitosis.
+Cells that have high pH3 signal are counted as M-phase cells.
 
 {: .text-center }
 {: .fs-3 }
 {: .fw-300 }
 ![Image depicting the gating that classifies cells as alive/dead or as M-phase]({{ site.baseurl }}/assets/images/figures/4-comp.png)
-Example of how cells are classified as being alive/dead (left) or in M-phase (right).
+Examples of how cells are classified as live or dead (left) or in M-phase (right).
 
 
 ### S-Phase
-Cells in S-phase are stained brightly with EdU.
+Cells in S-phase have high EdU signal.
 
 ### G1/G2
-By plotting Edu intensity versus DNA content (Hoechst intensity), the cells can further be classified into the G1 or G2 phases. Cells that are negative for EdU can be classified as G1 or G2 based on the quantity of DNA within the cells, where less DNA indicates G1 and duplicated DNA content indicates G2 phase, and DNA content in intermediate ranges indicates cells entering or leaving these stages.
+EdU negative cells are classified as G1, G2 or S-phase dropout (S_dropout) based on their DNA content (integrated Hoechst intensity). G2 cells have duplicated DNA content relative to G1 cells, and cells with intermediate DNA content are classified as S_dropout.
 
 {: .text-center }
 {: .fs-3 }
@@ -100,11 +100,11 @@ Example of how cells are classified into G1-, G2-, or S-phases.
 
 {: .text-center}
 {: .fs-5}
-*More detailed about the computational methods used to classify cells into the cell cycle phases can be found in [Computational Method]({{site.baseurl}}/overview/dye-drop/ddd-comp.html).*
+*See the [Computational Method]({{site.baseurl}}/overview/dye-drop/ddd-comp.html) section for more details.*
 
 ### Growth Rate Metrics
 
-Dye Drop methods are an ideal complement to the growth-rate (GR) inhibition method of computing dose responses and when combined, greatly improve the depth and accuracy of data while only slightly increasing cost. 
+Dye Drop methods are an ideal complement to the growth-rate (GR) inhibition method of computing dose responses that allows for the comparison of drug effects across cell lines with varied doubling times. 
 
 Cell viability data obtained from Dye Drop can be fed into the [GR calculator](http://www.grcalculator.org/) to determine the GR value for a given treatment compared to an untreated control. 
 
@@ -114,9 +114,12 @@ Cell viability data obtained from Dye Drop can be fed into the [GR calculator](h
 ![The GR value relates naturally to a treatment's effects on cell population growth. For partially cytostatic treatments (where growth is slowed, but not completely halted) GR values fall between 1 and 0. A GR value of zero represents cytostasis, or completely halted population growth. Cytotoxic treatments (where cell population declines) produce GR values between 0 and -1. Finally, a GR value of greater than one signifies a treatment that promotes growth.]({{ site.baseurl }}/assets/images/figures/6-gr.png)
 Graph depicting how growth rate values correspond to cell growth metrics.
 
+
+### Growth Rate Metrics - Cytostatic and Cytotoxic Components
+
 {: .text-center}
 {: .fs-5}
-*More detailed about the computational methods used to calculate these values can be found in [GR Metrics]({{site.baseurl}}/overview/gr_metrics/).*
+*See [GR Metrics]({{site.baseurl}}/overview/gr_metrics/) for more details on calculating GR values and metrics.*
 
 <br>
 
