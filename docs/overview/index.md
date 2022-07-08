@@ -45,7 +45,7 @@ The cells are cultured, stained, and fixed with a method identical to the dye dr
 {: .text-center }
 {: .fw-500 }
 {: .fs-5}
-*A detailed protocol for both Dye Drop and Deep Dye Drop is available in [Experimental Method]({{site.baseurl}}/protocol.html).*
+*Detailed protocols for both Dye Drop and Deep Dye Drop are available in [Experimental Protocol]({{site.baseurl}}/protocol.html).*
 
 <br>
 
