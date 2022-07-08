@@ -15,7 +15,7 @@ The “Dye Drop” and “Deep Dye Drop” assays [(Mills et al., 2021)](https:/
 
 <br>
 
-*We describe several different ways to implement Dye Drop assays to obtain detailed cell cycle information and to quantify single-cell phenotypes that are often obscured by population-average assays.*
+*We describe several different ways to implement Dye Drop assays to obtain detailed cell viability and cell cycle phenotypes that are often obscured by population-average assays.*
 
 {: .text-center}
 [View example data](./#applying-dye-drop){: .btn .btn-green}  
@@ -24,23 +24,23 @@ The “Dye Drop” and “Deep Dye Drop” assays [(Mills et al., 2021)](https:/
 
 ## Experimental Methods
 ### Dye Drop
-Dye drop uses a sequence of solutions where each solution is made slightly denser than the last by addition of iodixanol (OptiPrep<sup>TM</sup>), an inert liquid used in radiology. The denser solutions flow to the bottom of the well, displacing the previous solution with high efficiency and minimal mixing. This eliminates the need for mix and wash steps, where most of the experimental variability and uneven cell loss occurs.
+Dye drop uses a sequence of solutions where each solution is made slightly denser than the last by addition of iodixanol (OptiPrep<sup>TM</sup>), an inert liquid used in radiology. The denser solutions flow to the bottom of the well, displacing the previous solution with high efficiency and minimal mixing. This eliminates the need for pre-fixation mix and wash steps, where most of the experimental variability and uneven cell loss occurs.
 
 {: .text-center }
 {: .fs-3 }
 {: .fw-300 }
 ![Dye drop experiment overview]({{ site.baseurl }}/assets/images/figures/1-exp.png)
-For example, cells can be plated into a 384-well plate, then a cell cycle dye (mixed with OptiPrep<sup>TM</sup>) can be added to each well and stains the target cells. The experiment is eventually halted by adding an even more dense fixing solution (such as paraformaldehyde + OptiPrep<sup>TM</sup>) to the wells. From here, the contents of the well can be aspirated and rinsed as normal.
+For example, cells plated in 384-well plates (a single well is depicted) are exposed to different perturbagens for a set amount of time and then stained with Hoechst (to label all nuclei) and a LIVE/DEAD dye (to label dead cells) prepared in solution with OptiPrep<sup>TM</sup>. Cells are then fixed by layering in a denser solution containing formaldehyde and more OptiPrep<sup>TM</sup> to the wells. 
 
 ### Deep dye drop
 
-Deep Dye Drop incorporates antibody-based staining to gain even more valuable information about cell behavior.
+Deep Dye Drop incorporates EdU and antibody-based staining to gain detailed cell cycle data.
 
 {: .text-center }
 {: .fs-3 }
 {: .fw-300 }
 ![Deep dye drop experiment overview]({{ site.baseurl }}/assets/images/figures/2-exp.png)
-The cells are cultured, stained, and fixed with a method identical to the dye drop protocol above. In this example, Edu is used as a cell cycle dye. EdU is incorporated into newly synthesized DNA during chromosome replication and must be activated after fixing in order to visualize the stain. Afterwards the wells are rinsed, blocked to prevent non-specific antibody binding, and incubated with antibodies that specifically bind a molecule or protein within the sample.
+The cells are cultured, stained, and fixed with a method identical to the dye drop protocol above. In this example, EdU is used as a cell cycle dye. EdU is incorporated into newly synthesized DNA during chromosome replication and must be activated after fixing in order to visualize the stain. Afterwards the wells are rinsed, blocked to prevent non-specific antibody binding, and incubated with antibodies that specifically bind a molecule or protein within the sample.
 
 {: .text-center }
 {: .fw-500 }
