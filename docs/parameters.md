@@ -8,7 +8,7 @@ title: Parameter reference
 # Parameter reference
 
 ## Description
-This code takes in data from a deep dye drop experiment, determines the number of alive or dead cells, then classifies the alive cells into G1, G2, S, or M phase.
+This code takes in single cell intensity data from a deep dye drop microscopy experiment, determines the number of live and dead cells, and assigns each live cell to a phase of the cell cycle.
 
 ## Input 
 **Deep Dye Drop requires two inputs:**
@@ -18,16 +18,10 @@ This code takes in data from a deep dye drop experiment, determines the number o
 2. A python dict `ndict` that maps column names in the input data into a format compatible with the script.
 
 ### Formatting
-**Please add relevant information about how these input files need to be formatted. Are certain columns required? Is each row a different well? How are start and end points indicated.** What do these look like? 
+The input file should contain single cell data (each cell occupies a row) in a .cvs or .txt file. Plate (barcode), well, agent, concentration, timepoint, and role (negative control, positive control or treatment) identifiers as well as intensity measures for each channel should be in columns. 
 
 ## Output
-**Please describe the output format** 
-
-Something like: 
-"After running deep dye drop, you get two .csv files as an output. 
-
-1. This .csv file contains X columns of information that give the cell cycle averages per well 
-2. This file contains live and dead cells per well "
+By default, the cell cycle gating script will output a .pdf and .csv file for each plate analyzed. The .pdf file will contain EdU vs DNA content plots (one plot per well, each point shows a single cell) with the cell cycle gates overlaid for visual inspection. The .csv file will contain well level data (each well occupies a row) summarizing the fraction of cells in each phase of the cell cycle as well as the live and dead cell counts needed for downstream GR calculations. An additional .pdf file can be output at this stage that summarizes the cell cycle data in stacked bar plots per drug (agent).
 
 ## Usage
 
@@ -78,15 +72,6 @@ This dataframe can be used to map specific experimental plates to specific exper
 ```
 paste a dfm here
 ```
-
-<br>
-
-### control\_gates
-
-Contains control-based (i.e prior) estimates of gating values in the format `______`
-
-{: .fs-3}
-**For example:** setting `control_gates` to `______` will `do this thing`.
 
 <br>
 
