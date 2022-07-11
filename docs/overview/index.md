@@ -54,7 +54,7 @@ Cells are plated and treated as above, they are then incubated with a LIVE/DEAD 
 The stained cells are then imaged on a fluorescent microscope. 
 
 
-![example fluorescence image]({{ site.baseurl }}/assets/images/figures/3-images.png)
+![example fluorescence image]({{ site.baseurl }}/assets/images/figures/3-images-cm.png)
 
 This sample was stained with 4 common markers:
 
