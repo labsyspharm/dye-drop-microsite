@@ -69,9 +69,11 @@ This dataframe can be used to map specific experimental plates to specific exper
 
 {: .fs-3}
 **For example:**
-```
-paste a dfm here
-```
+
+<figure>
+      <img src="{{ site.baseurl }}/assets/images/dye_drop/metadata-dfm.png" class="center">
+      <figcaption align = "center"><b>Example metadata table</b></figcaption>
+  </figure>
 
 <br>
 
