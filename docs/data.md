@@ -16,8 +16,8 @@ We've developed a web application to allow users to interact with this HMS LINCS
 {: .text-center }
 {: .fs-3 }
 {: .fw-300 }
+Exemplar view of the [HMS LINCS Shiny app](https://labsyspharm.shinyapps.io/HMSLINCS_BRCA_Browser/){:target="_blank"} interface, displaying data for HCC1937 cells treated with Flavopiridol.
 ![Shiny app interface]({{ site.baseurl }}/assets/images/examples/Shinyapp.png)  
-Examplar view of the [HMS LINCS Shiny app](https://labsyspharm.shinyapps.io/HMSLINCS_BRCA_Browser/){:target="_blank"} interface, displaying data for HCC1937 cells treated with Flavopiridol.
 
 
 
