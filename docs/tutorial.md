@@ -7,6 +7,8 @@ last_modified_date: 2022-11-16
 
 # Computational tutorial
 
+Beginners should start with [installation]({{ site.baseurl }}/tutorial#installation) and the simplified [cell-gating example]({{ site.baseurl }}/tutorial#cell-gating-example). Advanced users can proceed to the [advanced tutorial]({{ site.baseurl }}/tutorial#advanced-example) and download five plates of data to process with Dye Drop. 
+
 ## Installation
 1. Open a terminal of your choice.
 2. Clone the [github repository](https://github.com/datarail/DrugResponse){:target="_blank"}
@@ -25,7 +27,9 @@ last_modified_date: 2022-11-16
   - The example directory (located in `DrugResponse/python/cell_cycle_gating/examples/`) contains a Raw data folder `EX_01[78956]`.
     - This folder contains 10 .txt files, each corresponding to single cell data from a given well (wells C3 to C12).
 2. Type `python` to open a python terminal or open the Jupyter notebook `DDR_example.ipynb` and execute the steps in the notebook.
-  
+
+{: .fs-3 }
+{: .fw-300 }
   *\* Based on the python version, you may need to use `python3` or other similar commands to launch the terminal. Check with the documentatation of your python distribution to be sure.*
   
   - The code is reproduced below with a summary of each step.
@@ -40,17 +44,21 @@ last_modified_date: 2022-11-16
   import pandas as pd     
   import warnings
   warnings.filterwarnings('ignore')
-  ```
+  ```  
+
 2. Import the metadata file that containg mapping between the well name and conditions (i.e cell line, drug, concentration etc).
   <br> - Note: a metadata file in not required for succesfully running the script but is highly recommended.
   ```
   dfm = pd.read_csv('EX_01_metadata.csv')
-  ```
+  ```  
+
 3. Specify the name of the folder containing the object level data.
   <br> - Note: If your data is saved in a single file, provide the name  of the file (or entire path).
   ```
   obj = 'EX_01[78956]'
-  ```
+  ```  
+  
+
 4. Map user-defined channel names to standarized names required by the script.
   <br> - Note: The column names in your input dataset may vary based on your software or personal preferences. However, the script expects a set of standard column names for DNA content, LDR, EDU features.
   ```
@@ -58,7 +66,8 @@ last_modified_date: 2022-11-16
           'Nuclei Selected - DNAcontent': 'dna',
           'Nuclei Selected - LDRTXT SER Spot 8 px': 'ldrint',
           'Nuclei Selected - pH3INT': 'ph3'}
-  ```
+  ```  
+  
 5. Run automated gating on the example dataset. (Run time ~1 minute)
   ```
   dfs = rccg.run(obj, ndict, dfm)
@@ -68,12 +77,28 @@ last_modified_date: 2022-11-16
 - Two files `summary_EX_01[78956].csv` and `summary_EX_01[78956].pdf` will be saved in a new `results/` folder in your local directory.
   - `EX_01[78956].csv` - A comma-separated text file with a table containing rows corresponding to wells in the 96 well plate.
   <br>Each row contains a well-level summary of the number of live/dead cells and fraction of cells in each phase of the cell cycle for one well.
-  <figure>
-      <img src="{{ site.baseurl }}/assets/images/dye_drop/example_result_csv.png" class="center">
-      <figcaption align = "center"><b>Example output table</b></figcaption>
-  </figure>
-  - `EX_01[78956].pdf` - a pdf with DNA v EDU scatterplots and gating for each well
-  <figure>
-    <img src="{{ site.baseurl }}/assets/images/dye_drop/example_result_pdf.png" class="center">
-    <figcaption align = "center"><b>Example output figures</b></figcaption>
-  </figure>
+
+<br>
+
+{: .text-center }
+{: .fs-3 }
+{: .fw-300 }
+![Example .csv output table]({{ site.baseurl }}/assets/images/dye_drop/example_result_csv.png)
+Example output table
+
+<br>
+
+{: .text-center }
+{: .fs-3 }
+{: .fw-300 }
+![Example output figurese]({{ site.baseurl }}/assets/images/dye_drop/example_result_pdf.png)
+Example output figures
+
+## Advanced example
+
+We have deposited two additional Jupyter notebooks and five plates of example data on [Synapse](https://www.synapse.org/#!Synapse:syn43585417){:target="_blank"} for download - *you will need to make a free Synapse account in order to download this data*.
+
+With the first Jupyter notebook, `1-cell_cycle_gating.ipynb`, you will run cell cycle analysis on these data. The second notebook, `2-cell cycle summary and gr calcs.ipynb`, will produce cell cycle summary plots and will calculate GR metrics on the data. 
+
+{: .fw-300 }
+*We hope these examples will clarify how Dye Drop can be applied to real-world multi-well plate datasets.* 
