@@ -7,7 +7,7 @@ title: Example data
 
 # Example data
 
-The Dye Drop manuscript ([Mills et al., 2021](https://doi.org/10.1101/2021.08.27.457854){:target="_blank"}) encompasses a panel of 58 breast cancer cells treated with 67 kinase inhibitors. 
+The Dye Drop manuscript ([Mills et al., 2022](https://doi.org/10.1038/s41467-022-34536-7){:target="_blank"}) encompasses a panel of 58 breast cancer cells treated with 67 kinase inhibitors. 
 
 We've developed a web application to allow users to interact with this HMS LINCS dataset, available at: [https://labsyspharm.shinyapps.io/HMSLINCS_BRCA_Browser/](https://labsyspharm.shinyapps.io/HMSLINCS_BRCA_Browser/){:target="_blank"}.
 

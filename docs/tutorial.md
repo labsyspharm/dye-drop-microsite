@@ -6,7 +6,7 @@ nav_order: 5
 
 # Computational tutorial
 
-Beginners should start with [installation]({{ site.baseurl }}/tutorial#installation) and the simplified [cell-gating example]({{ site.baseurl }}/tutorial#cell-gating-example). Advanced users can proceed to the [advanced tutorial](/tutorial#advanced-example) and download five plates of data to process with Dye Drop. 
+Beginners should start with [installation]({{ site.baseurl }}/tutorial#installation) and the simplified [cell-gating example]({{ site.baseurl }}/tutorial#cell-gating-example). Advanced users can proceed to the [advanced tutorial]({{ site.baseurl }}/tutorial#advanced-example) and download five plates of data to process with Dye Drop. 
 
 ## Installation
 1. Open a terminal of your choice.
