@@ -7,7 +7,8 @@ last_modified_date: 2022-03-28
 
 # Citing Dye Drop
 
-* Mills, C. E., Subramanian, K., Hafner, M. *et al.* Multiplexed and reproducible high content screening of live and fixed cells using the Dye Drop method. *bioRxiv* 2021.08.27.457854 (2021) [doi: 10.1101/2021.08.27.457854](https://doi.org/10.1101/2021.08.27.457854){:target="_blank"}.
+* Mills, C.E., Subramanian, K., Hafner, M. _et al._ Multiplexed and reproducible high content screening of live and fixed cells using Dye Drop. _Nat Commun_ **13**, 6918 (2022). [https://doi.org/10.1038/s41467-022-34536-7](https://doi.org/10.1038/s41467-022-34536-7){:target="_blank"}.
+	* View the *bioRxiv* version [here](https://doi.org/10.1101/2021.08.27.457854){:target="_blank"}.
 
 # Related publications
 
