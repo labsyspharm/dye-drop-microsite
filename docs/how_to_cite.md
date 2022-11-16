@@ -2,7 +2,7 @@
 layout: default
 title: How to cite?
 nav_order: 18
-last_modified_date: 2022-03-28
+last_modified_date: 2022-11-16
 ---
 
 # Citing Dye Drop

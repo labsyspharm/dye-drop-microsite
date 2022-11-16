@@ -2,12 +2,12 @@
 layout: default
 nav_order: 15
 title: Funding
-last_modified_date: 2022-03-21
+last_modified_date: 2022-11-16
 ---
 
 # Funding
 
-This work was funded by the following NIH grants and a generous gift from the Termeer Foundation:
+This work was funded by the following NIH grants, the Ludwig Center at Harvard, and a generous gift from the Termeer Foundation:
 - U54-CA225088
 - U54-HL127365
 - U24-DK116204
